@@ -1,6 +1,6 @@
 <?php
 
-	define("DB", 'zabooks');
+	define("DB", 'Books');
 	define("HOST", 'localhost');
 	define("USER", 'root');
 	define("PASS", '');

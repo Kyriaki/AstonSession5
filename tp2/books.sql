@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Client :  127.0.0.1
--- Généré le :  Lun 23 Janvier 2017 à 15:53
+-- Généré le :  Mar 24 Janvier 2017 à 13:52
 -- Version du serveur :  10.1.19-MariaDB
 -- Version de PHP :  5.6.28
 
@@ -17,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de données :  `zabooks`
+-- Base de données :  `books`
 --
 
 -- --------------------------------------------------------
@@ -36,11 +36,11 @@ CREATE TABLE `books` (
 --
 
 INSERT INTO `books` (`id`, `name`) VALUES
-(1, 'You thought'),
-(3, 'it was a book'),
-(4, 'but it was ME'),
-(5, 'DIO'),
-(18, 'MUDAMUDAMUDAMUDAMUDA!');
+(1, 'Un bon'),
+(3, 'livre'),
+(4, 'comme on'),
+(5, 'les aime'),
+(20, 'poil');
 
 --
 -- Index pour les tables exportées
@@ -60,7 +60,7 @@ ALTER TABLE `books`
 -- AUTO_INCREMENT pour la table `books`
 --
 ALTER TABLE `books`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

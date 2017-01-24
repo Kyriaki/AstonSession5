@@ -1,7 +1,7 @@
 <?php
 
 	session_start();
-	
+
 	if (isset($_POST['book']))
 	{
 
@@ -21,4 +21,5 @@
 
 	$books = getBooks();
 
+	if(isset($_SESSION)) session_destroy();
 ?>
