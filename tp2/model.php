@@ -1,11 +1,9 @@
 <?php
 
-
 	define("DB", 'zabooks');
 	define("HOST", 'localhost');
 	define("USER", 'root');
 	define("PASS", '');
-
 
 
 	function dbConnect(){
