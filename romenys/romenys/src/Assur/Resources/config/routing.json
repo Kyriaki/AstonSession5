@@ -1,0 +1,38 @@
+{
+    "route": {
+        "homepage": {
+            "path": "/",
+            "controller": "Assur\\Controller\\Assur",
+            "action": "homepage"
+        },
+        "form": {
+            "path": "/form",
+            "controller": "Assur\\Controller\\Assur",
+            "action": "form"
+        },
+        "user_list": {
+            "path": "/users",
+            "controller": "Assur\\Controller\\Assur",
+            "action": "list"
+        },
+        "user_new": {
+            "path": "/client/new",
+            "controller": "Assur\\Controller\\Assur",
+            "action": "new"
+        },
+        "user_show": {
+            "path": "/client/:tamere",
+            "controller": "Assur\\Controller\\Assur",
+            "action": "show"
+        },
+        "default": {
+            "path": "/",
+            "controller": "Assur\\Controller\\Assur",
+            "action": "default"
+        }
+    },
+    "file": {
+
+    }
+}
+}

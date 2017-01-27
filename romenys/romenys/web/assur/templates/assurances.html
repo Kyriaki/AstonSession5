@@ -1,0 +1,28 @@
+
+
+<div>
+	<table class="table table-striped">
+	    <thead>
+	      <tr>
+	        <th>Assurances already sold to {{client.name}} :</th>
+	      </tr>
+	    </thead>
+	    <tbody>
+	      <tr ng-repeat="clientAssur in clientAssurs">
+	        <td> {{ clientAssur.name }} </td>
+	      </tr>
+	    </tbody>
+	</table>
+</div>
+
+<div>
+	<form name="form" id="form" ng-submit="submit(assurAdded)" enctype="multipart/form-data" method="POST">
+		<select name="assurance" ng-model="assurAdded.id">
+			<option ng-repeat="assur in assurs" value="{{assur.id}}" name="assuranceName">
+				{{ assur.name }}
+			</option>
+		</select>
+	    <input type="submit" class="btn btn-primary">
+	</form>
+</div>
+<a href="#!/">Home</a>

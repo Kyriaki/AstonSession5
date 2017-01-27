@@ -1,0 +1,67 @@
+{
+    "route": {
+        "homepage": {
+            "path": "/",
+            "controller": "Examples\\Controller\\Examples",
+            "action": "homepage"
+        },
+        "form": {
+            "path": "/form",
+            "controller": "Examples\\Controller\\Examples",
+            "action": "form"
+        },
+        "user_list": {
+            "path": "/clients",
+            "controller": "Examples\\Controller\\Examples",
+            "action": "list"
+        },
+        "user_new": {
+            "path": "/client/new",
+            "controller": "Examples\\Controller\\Examples",
+            "action": "new"
+        },
+        "user_show": {
+            "path": "/client/:id",
+            "controller": "Examples\\Controller\\Examples",
+            "action": "show"
+        },
+        "user_show2": {
+            "path": "/client/:id",
+            "controller": "Examples\\Controller\\Examples",
+            "action": "getAssursFromClient"
+        },
+        "modify": {
+            "path": "/client/:id/modify",
+            "controller": "Examples\\Controller\\Examples",
+            "action": "modify"
+        },
+        "modify_assur": {
+            "path": "/client/:id/modify/assurances",
+            "controller": "Examples\\Controller\\Examples",
+            "action": "modifyAssur"
+        },
+        "modify_assur2": {
+            "path": "/client/:id/modify/assurances",
+            "controller": "Examples\\Controller\\Examples",
+            "action": "getAssurs"
+        },
+        "modify_assur3": {
+            "path": "/client/:id/modify/assurances",
+            "controller": "Examples\\Controller\\Examples",
+            "action": "getAssursFromClient"
+        },
+        "assur_show": {
+            "path": "/client/:clientid/car:carid/assurances",
+            "controller": "Examples\\Controller\\Examples",
+            "action": "carAssurShow"
+        },
+        "default": {
+            "path": "/",
+            "controller": "Examples\\Controller\\Examples",
+            "action": "default"
+        }
+    },
+    "file": {
+
+    }
+}

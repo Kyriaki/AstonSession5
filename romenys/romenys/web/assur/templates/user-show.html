@@ -1,0 +1,37 @@
+<div class="container">
+	<div class="">
+		<table class="table table-striped">
+		    <thead>
+		      <tr>
+		        <th>Name</th>
+		        <th>Email</th>
+		      </tr>
+		    </thead>
+		    <tbody>
+		      <tr>
+		        <td> {{ client.name }} </td>
+		        <td> {{ client.email }}</td>
+		      </tr>
+		    </tbody>
+		</table>
+	</div>
+
+	<div>
+		<table class="table table-striped">
+		    <thead>
+		      <tr>
+		        <th>Assurances</th>
+		      </tr>
+		    </thead>
+		    <tbody>
+		      <tr ng-repeat="clientAssur in clientAssurs">
+		        <td> {{ clientAssur.name }} </td>
+		      </tr>
+		    </tbody>
+		</table>
+	</div>
+	Client car : <a href="#!/client/{{client.id}}/car{{car.id}}/assurances"> {{ car.brand }} </a></br>
+	<a href="#!/client/{{client.id}}/modify">Modify client informations</a></br>
+	<a href="#!/">Home</a>
+</div>
+

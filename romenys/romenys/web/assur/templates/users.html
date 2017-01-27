@@ -1,0 +1,19 @@
+
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="client in clients">
+        <td> {{ client.name }} </td>
+        <td> {{ client.email }} </td>
+        <td><a href="#!/client/{{client.id}}">Access client page</a></td>
+        <td><a href="#!/client/{{client.id}}/modify">Modify Infos</a></td>
+      </tr>
+    </tbody>
+</table>
+<a href="#!/">Home</a>
+
